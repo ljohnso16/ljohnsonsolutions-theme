@@ -23,9 +23,8 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
+	<div>
 		<?php edit_post_link( esc_html__( 'Edit', 'ljohnsonsolutions' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
+	</div><!-- .entry-footer -->
 </article><!-- #post-## -->
 

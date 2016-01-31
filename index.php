@@ -13,44 +13,58 @@
  */
 
 get_header(); ?>
-<div class="container">
-	<div class="row">
-	<div id="primary" class="col-md-9 col-lg-9">
-		<main id="main" class="site-main" role="main">
+<div class="container marketing">
 
-		<?php if ( have_posts() ) : ?>
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <img class="img-circle" src="http://placehold.it/140x140">
+      <h2>Mobile-first</h2>
+      <p>Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img class="img-circle" src="http://placehold.it/140x140">
+      <h2>One Fluid Grid</h2>
+      <p>There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img class="img-circle" src="http://placehold.it/140x140">
+      <h2>LESS is More</h2>
+      <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
+      <p><a class="btn btn-default" href="#">View details »</a></p>
+    </div>
+  </div><!-- /.row -->
 
-			<?php if ( is_home() && ! is_front_page() ) : ?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-			<?php endif; ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+  <!-- START THE FEATURETTES -->
 
-				<?php
+  <hr class="featurette-divider">
 
-					/*
-					 * Include the Post-Format-specific template for the content.
-					 * If you want to override this in a child theme, then include a file
-					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-					 */
-					get_template_part( 'template-parts/content', get_post_format() );
-				?>
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-right img-responsive" src="http://placehold.it/512">
+    <h2 class="featurette-heading">Responsive Design. <span class="text-muted">It'll blow your mind.</span></h2>
+    <p class="lead">In simple terms, a responsive web design figures out what resolution of device it's being served on. Flexible grids then size correctly to fit the screen.</p>
+  </div>
 
-			<?php endwhile; ?>
+  <hr class="featurette-divider">
 
-			<?php the_posts_navigation(); ?>
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-left img-responsive" src="http://placehold.it/512">
+    <h2 class="featurette-heading">Smaller Footprint. <span class="text-muted">Lightweight.</span></h2>
+    <p class="lead">The new Bootstrap 3 promises to be a smaller build. The separate Bootstrap base and responsive.css files have now been merged into one. There is no more fixed grid, only fluid.</p>
+  </div>
 
-		<?php else : ?>
+  <hr class="featurette-divider">
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+  <div class="featurette">
+    <img class="featurette-image img-circle pull-right img-responsive" src="http://placehold.it/512">
+    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Flatness.</span></h2>
+    <p class="lead">A big design trend for 2013 is "flat" design. Gone are the days of excessive gradients and shadows. Designers are producing cleaner flat designs, and Bootstrap 3 takes advantage of this minimalist trend.</p>
+  </div>
 
-		<?php endif; ?>
+  <hr class="featurette-divider">
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
+  <!-- /END THE FEATURETTES -->
 <?php get_footer(); ?>
