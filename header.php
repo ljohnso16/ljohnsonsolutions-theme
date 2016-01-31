@@ -24,7 +24,7 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 	<nav role="navigation">
-		<div class="navbar navbar-static-top navbar-default">
+		<div class="navbar navbar-static-top navbar-default navbar-inverse">
 		  <div class="container"> 
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">

@@ -24,8 +24,8 @@
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
-	<footer class="entry-footer">
+	<div class="entry-footer">
 		<?php ljohnsonsolutions_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</div><!-- .entry-footer -->
 </article><!-- #post-## -->
 
