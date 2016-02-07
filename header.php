@@ -22,17 +22,17 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-	<nav role="navigation">
+	<header id="masthead" class="site-header">
+	<nav>
 		<div class="navbar navbar-static-top navbar-default navbar-inverse">
-		  <div class="container"> 
+		  <div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><?php bloginfo( 'name' ) ?></a>
+					<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ) ?>"><img src="<?php echo get_template_directory_uri();?>/inc/images/LJS-white-thin-head-min.png"></a>
 				</div>
 				<div class="navbar-collapse collapse navbar-responsive-collapse">
 					<?php
@@ -98,11 +98,10 @@
 	  </a>
 	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
 		<span class="icon-next"></span>
-	  </a>  
+	  </a>
 	</div>
 	</header><!-- #masthead -->
 
-	<?php 
-	if(!is_home())
+	<?php
 		echo '<div id="content" class="site-content">';
-	?>	
+	?>

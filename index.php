@@ -16,23 +16,23 @@
 <div class="container marketing">
   <!-- Three columns of text below the carousel -->
   <div class="row">
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+    <div class="col-sm-4 col-md-4 col-lg-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>Mobile-first</h2>
       <p>Tablets, phones, laptops. The new 3 promises to be mobile friendly from the start.</p>
-      <p><a class="btn btn-default" href="#">View details »</a></p>
+      <p><a class="btn btn-default" href="#">View details</a></p>
     </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+    <div class="col-sm-4 col-md-4 col-lg-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>One Fluid Grid</h2>
       <p>There is now just one percentage-based grid for Bootstrap 3. Customize for fixed widths.</p>
-      <p><a class="btn btn-default" href="#">View details »</a></p>
+      <p><a class="btn btn-default" href="#">View details</a></p>
     </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+    <div class="col-sm-4 col-md-4 col-lg-4 text-center">
       <img class="img-circle" src="http://placehold.it/140x140">
       <h2>LESS is More</h2>
       <p>Improved support for mixins make the new Bootstrap 3 easier to customize.</p>
-      <p><a class="btn btn-default" href="#">View details »</a></p>
+      <p><a class="btn btn-default" href="#">View details</a></p>
     </div>
   </div><!-- /.row -->
 
@@ -66,4 +66,5 @@
   <hr class="featurette-divider">
 
   <!-- /END THE FEATURETTES -->
+</div>
 <?php get_footer(); ?>
