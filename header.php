@@ -52,18 +52,17 @@
 		  </div><!-- /container -->
 		</div>
 	</nav>
+	<?php if(is_front_page()):?>
 	<div id="myCarousel" class="carousel slide">
 	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	  </ol>
 	  <div class="carousel-inner">
 		<div class="item active">
-			<img src="<?php echo get_template_directory_uri();?>/inc/images/header-start.png" style="width:100%" class="img-responsive">
+			<img src="<?php echo get_template_directory_uri();?>/inc/images/header-start.png" style="width:100%" class="header-img">
 		</div>
 	  </div>
 	  <!-- Controls -->
 	</div>
+	<?php endif;?>
 	</header><!-- #masthead -->
 
 	<?php

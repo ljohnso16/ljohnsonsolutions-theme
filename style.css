@@ -495,3 +495,6 @@ a.navbar-brand img {
 a.navbar-brand {
     padding: 7px !important;
 }
+a.post-edit-link {
+    color: black;
+}

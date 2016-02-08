@@ -24,7 +24,7 @@
 		?>
 	</div><!-- .entry-content -->
 	<div>
-		<?php edit_post_link( esc_html__( 'Edit', 'ljohnsonsolutions' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( esc_html__( 'Edit', 'ljohnsonsolutions' ), '<button type="button" class="btn btn-danger">', '</button>' ); ?>
 	</div><!-- .entry-footer -->
 </article><!-- #post-## -->
 
