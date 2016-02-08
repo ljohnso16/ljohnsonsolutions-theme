@@ -36,9 +36,9 @@
 					<div class="footerWidget">
 						<h3>Keep in touch </h3>
 						<address>
+							<p><span class="icon icon-envelope"></span>&nbsp;<a href="http://ljohnsonsolutions.com/contact/">Contact</a></p>
 							<p><span class="icon icon-map-marker"></span>&nbsp;Colorado Springs, Colorado</p>
-							<p><span class="icon icon-map-marker"></span>&nbsp;Los Angeles, California</p>
-							<p><span class="icon icon-envelope"></span>&nbsp;<a href="mailto:info@theljonson.com">info@theljohnson.com</a></p>
+							<p><span class="icon icon-map-marker"></span>&nbsp;Los Angeles, California</p>							
 							<p><span class="icon icon-skype"></span>&nbsp;Theljohnson</p>
 						</address>
 					</div>
